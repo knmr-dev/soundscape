@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+* {
+    font-family: 'Gruppo', sans-serif;
+}
+
+.ant-btn, .ant-input {
+    font-family: 'Gruppo', sans-serif;
+}
+
+.ant-form-item-explain {
+    font-family: 'Gruppo', sans-serif;
+}
+
+.contact-info {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+.footer-text {
+    font-family: 'Gruppo', sans-serif;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.custom-carousel .slick-prev, 
+.custom-carousel .slick-next {
+    display: none;
+}
+
+.custom-carousel .slick-dots li button {
+    background-color: #000;
+}
+
+.custom-carousel .slick-dots li.slick-active button {
+    background-color: #05A6DE;
+}
+
+
+/* Custom Breadcrumb styles */
+.custom-breadcrumb .ant-breadcrumb-link {
+    color: white !important; /* White text color for all breadcrumb items */
+  }
+  
+  .custom-breadcrumb .ant-breadcrumb-link:hover {
+    color: #05A6DE !important; /* Blue color on hover */
+  }
+  
+  .custom-breadcrumb .ant-breadcrumb-separator {
+    color: white !important; /* White color for separators */
+  }
+  
+  .custom-breadcrumb .breadcrumb-red {
+    color: #05A6DE !important; /* Red color for specific breadcrumb item */
+  }
+  
+
+.custom-menu .ant-menu-item {
+    color: white !important;
+}
+
+.custom-menu .ant-menu-item:hover {
+    color: #0AC1C8 !important;
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected {
+    color: #0AC1C8 !important;
+    background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected::after,
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected::after {
+    border-bottom-width: 2px;
+    border-bottom-color: #0AC1C8;
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-horizontal {
+    line-height: 46px;
+    border: 0;
+    border-bottom: 0px solid rgba(5, 5, 5, 0.06);
+    box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after {
+    border-bottom-width: 2px;
+    border-bottom-color: #0AC1C8 !important;
+}
+
+span.anticon:hover {
+    color: #0AC1C8 ;
+}
