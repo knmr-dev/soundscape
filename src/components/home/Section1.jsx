@@ -23,7 +23,7 @@ export default function Section1() {
         },
       ];
     return (
-        <div className="h-full"> {/* Set height to 70% of viewport height */}
+        <div className="h-full">
         <Carousel autoplay autoplaySpeed={3000} className="h-full">
           {carouselContent.map((slide, index) => (
             <div key={index} className="relative h-[90vh] w-full">
