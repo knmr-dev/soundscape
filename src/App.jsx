@@ -4,6 +4,7 @@ import Service from './pages/Service';
 import Media from './pages/Media';
 import Review from './pages/Review';
 import Contact from './pages/Contact';
+import Analytics from './pages/Analytics';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
           element={<Review/>}
         />
         <Route
+          path="/analytics"
+          element={<Analytics/>}
+        />
+        <Route
           path="/contact"
           element={<Contact/>}
         />
@@ -36,4 +41,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
